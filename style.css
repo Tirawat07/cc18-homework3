@@ -238,11 +238,12 @@ a{
     position: absolute;
     top: 40px;
     left: 50%;
-    background-color: silver;
+    background-color: rgb(246, 246, 246);
     width: 35%;
     height: 600px;
     border-radius: 40px 40px 40px 40px;
     box-shadow: 1px 10px 36px 6px rgba(0,0,0,0.7);
+    border-radius: 10px 10px 10px 10px ;
     
     
 }
@@ -252,11 +253,11 @@ a{
     position: relative;
     height: 50%;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* background-color: rgb(230, 234, 233); */
     /* box-shadow: 1px 10px 36px 6px rgba(0,0,0,0.7); */
     overflow: hidden;
-    border-radius: 20px 20px 20px 20px;
+    /* border-radius: 20px 20px 20px 20px; */
 
 }
 .orderinfo{
@@ -324,13 +325,14 @@ input[type="text"]{
     width: 100%;
     /* border: 2px solid black; */
     /* background-color: rgb(229, 233, 232); */
-    box-shadow: 1px 10px 36px 6px rgba(0,0,0,0.7);
+    /* box-shadow: 1px 10px 36px 6px rgba(0,0,0,0.7); */
 }
 
 .divh4300{
     display:flex;
     width: inherit;
     font-size: 40px;
+    margin-right: 10%;
     justify-content: end;
 }
 .divh4c{
@@ -344,7 +346,7 @@ input[type="text"]{
     height: 30px;
     background-color: rgb(122, 207, 122);
     justify-content: center;
-    border-radius: 10px 10px 10px 10px ;
+    /* border-radius: 10px 10px 10px 10px ; */
     text-align:center;
     align-items: center;
     
